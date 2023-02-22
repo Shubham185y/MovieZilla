@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: aliceblue;
+  color: black;
+}
+
+.prop{
+  color: #1434A4;
+  font-weight: 600;
+}
+.header{
+  background-color: #d2ffc4;
+}
+.thought{
+  background-color: #E5FDD1;
+  color: black;
+}
+.share{
+  background-color: #5cf496;
+}
