@@ -63,7 +63,7 @@ const addMovie = async() => {
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
           <div class="relative">
-            <label for="name" class="leading-7 text-sm text-gray-600">Tittle</label>
+            <label for="name" class="leading-7 text-sm text-gray-600">Title</label>
             <input type="text" id="name" name="name"
                 value={form.tittle}
                 autocomplete="off"
