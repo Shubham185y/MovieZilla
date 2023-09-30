@@ -1,7 +1,7 @@
 import react, {useState, useEffect} from 'react'
 import ReactStars from 'react-stars'
 import {getDocs} from 'firebase/firestore'
-import { moviesRef } from '../Firebase/firebase'
+import { moviesRef } from '../Firebase/firebase.js'
 import { Link } from 'react-router-dom'
 
 const Cards = () => {
