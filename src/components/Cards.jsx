@@ -1,5 +1,6 @@
 import react, {useState, useEffect} from 'react'
 import ReactStars from 'react-stars'
+import { Audio, ThreeDots } from "react-loader-spinner";
 import {getDocs} from 'firebase/firestore'
 import { moviesRef } from '../Firebase/firebase'
 import { Link } from 'react-router-dom'
