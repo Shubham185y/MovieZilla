@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Audio, ThreeDots } from "react-loader-spinner";
-import ReactStars from "react-stars";
+import react, {useState, useEffect} from 'react'
+import ReactStars from 'react-stars'
 import {getDocs} from 'firebase/firestore'
-import {moviesRef} from '../Firebase/firebase'
-import { Link } from "react-router-dom";
+import { moviesRef } from '../Firebase/firebase'
+import { Link } from 'react-router-dom'
 
 const Cards = () => {
   const [data, setData] = useState([]);
